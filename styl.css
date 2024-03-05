@@ -98,6 +98,26 @@ nav ul a:hover, .aktivni a {
         border-bottom: 2px solid #373d20;
 }
 
+.avatar {
+        float: right;
+        width: 300px;
+        border-width: 10px;
+        border-color: #ACA69Aff;
+        border-style: solid;
+        border-radius: 100%;
+    }
+
+.welcome-section{
+        width: 100%;
+        height:500px;
+        background-image: url('./pexels2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+
+
 .icons {
         display: flex;
         flex-direction: row; 
@@ -172,14 +192,8 @@ footer a {
         text-decoration: none;
 }
 
-.avatar {
-        float: right;
-        width: 300px;
-        border-width: 10px;
-        border-color: #ACA69Aff;
-        border-style: solid;
-        border-radius: 100%;
-}
+
+
 
 .cistic {
         clear: both;
@@ -242,12 +256,6 @@ tbody td:hover {
 }
 
 
-
-
-
-
-
-
 .vlevo1 {
         float: left;
 }
@@ -278,6 +286,7 @@ tbody td:hover {
         border-collapse: collapse;
         margin-top: 60px;
 }
+
 #reference img {
         border: 1px solid gray;
         padding: 6px;
@@ -285,10 +294,3 @@ tbody td:hover {
         margin-right: 6px;
 }
 
-.welcome-section{
-        width: 100%;
-        height:300px;
-        background-image: url('./coffee-g680ddfda5_1920.jpg');
-        background-position: center;
-        background-size: cover;
-        background-attachment: fixed;
