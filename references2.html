@@ -2,7 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+        <meta name="viewport" content="width=device-width, viewport-fit=cover">
         <meta name="description" content="References Chalupova"/>
         <meta name="keywords" content="references, programmer, LenCHA"/>
         <meta name="author" content="LenCHA"/>
@@ -32,20 +32,72 @@
         </header>
 
         <article>
+           
             <header>
-                <h1>References</h1>
+                    <h1>References</h1>
             </header>
-
+                
             <section>         
-                        
+                <article class="clanek-reference">    
                 <p>Below you can find examples of my past and future work. I can offer you the creation of similar software.</p>
+                <p><strong><a href="https://github.com/LenCHAdev" target="_blank"></a>Some of my projects are available on Github.com</strong></p>
+                </article>
+            
 
-                <div id="reference">
+                <article class="clanek-reference">
+                    <u>Personal web portfolio project</u><br>
+                        Websites in Technologies:
+                        <ul>
+                            <li>HTML5</li>
+                            <li>CSS3</li>
+                        </ul>
+                    
+                </article>
+
+                <div class="postranni-panel-reference" id="reference">
                     <a href="obrazky/lecha_web.png" title="Web in HTML a CSS" rel="lightbox[reference]"><img src="obrazky/lecha_web_nahled.png" alt="Web in HTML a CSS"/></a>
-                    <a href="obrazky/pojistenci.png" title="Application - Records of insurance" rel="lightbox[reference]"><img src="obrazky/pojistenci_nahled.png" alt="Records of insurance"/></a>
                 </div>
 
-                <p><a href="https://github.com/LenCHAdev" target="_blank"></a>Some of my projects are available on Github.com</p>
+                <article class="clanek-reference">
+                    <u>Insurance records application - console version (Python)</u><br>
+                        The application contains the management of the insured:
+                        <ul>
+                            <li>Creation of the insured</li>
+                            <li>Record first name, last name, age and phone number</li>
+                            <li>Displaying a list of all insured persons</li>
+                            <li>Search for the insured by first and last name</li>
+                        </ul>
+                           Given entities are stored in a collection in memory
+                           The application is programmed according to good practices (constructors, SRP, SoC, DRY..)
+                </article>
+
+                <div class="postranni-panel-reference" id="reference">
+                    <a href="obrazky/console_project.jpg" title="Console Application - Records of insurance" rel="lightbox[reference]"><img src="obrazky/console_project_nahled.jpg" alt="Console Records of insurance"/></a>
+                </div>
+
+
+                <article class="clanek-reference">
+                    <u>Insurance records - web version</u><br>
+                    The application contains complete management (CRUD) of the insured and their insurance:
+                    <ul>
+                        <li>Creation of the insured</li>
+                        <li>Creating insurance</li>
+                        <li>Viewing details of the insured including his insurance</li>
+                        <li>View insurance details</li>
+                        <li>Displaying the list of insured persons</li>
+                        <li>Removal of the insured including all his insurances</li>
+                        <li>Cancellation of insurance</li>
+                        <li>Editing of the insured</li>
+                        <li>Editing of the insured's insurance</li>
+                    </ul> 
+                    The entities in question are stored in the SQL database.
+                    The application is programmed according to good practices and is fully responsive.
+                </article>
+
+                <div class="postranni-panel-reference" id="reference">
+                    <a href="obrazky/pojistenci.png" title="Application - Records of insurance" rel="lightbox[reference]"><img src="obrazky/pojistenci_nahled.png" alt="Records of insurance"/></a>
+                </div>
+                
 
                 <div class="cistic"></div>
 
@@ -58,7 +110,7 @@
                 <a href="https://github.com/LenCHAdev" target="_blank"><img src="obrazky/git.png" alt="github" class="icons2"/></a>
                 <a href="docs/CV.pdf" target="_blank"><img src="obrazky/cv.png" alt="cv" class="icons2"/></a>
             </div>
-            Made by &copy;LenCHA 2024 for <a href="https://itnetwork.cz" target="_blank">itnetwork.cz</a>
+            Made by &copy;LenCHA 2024
         </footer>
     </body>
 </html>

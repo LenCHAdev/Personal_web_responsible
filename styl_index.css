@@ -37,6 +37,7 @@ body > header  {
 }
 
 
+
 #logo {
         height: 50px;
         margin: auto 0 auto 20px;
@@ -178,17 +179,30 @@ footer a {
         clear: both;
 }
 
-.centrovany {
-        text-align: center;
+
+.reference-tlacitko {
+        background: #ca7e82;
+        color: white;
+        font-size: 0.9;
+        text-transform: uppercase ;
+        text-decoration: none;
+        padding: 12px 25px;
+        margin-left: 170px;
+        border-radius: 20px;
 }
 
-
+.reference-tlacitko:hover{
+        background: #f9f9f9; 
+        color: #ca7e82;
+        border: 0; 
+        transition:cubic-bezier(0.215, 0.610, 0.355, 1)
+}
 
 .kontakt-tlacitko {
         background: #373d20;
         padding: 10px 20px;
         border-radius: 20px;
-}
+ }
 
 
  .kontakt-tlacitko:hover {
@@ -196,128 +210,53 @@ footer a {
         color: #373d20;
         border:0 ;
         transition:cubic-bezier(0.215, 0.610, 0.355, 1)
-}
-
-table { 
-	font-family: Arial;
-	border-collapse: collapse; 
-	box-shadow: 0px 0px 20px #e0dfdf;  
-}
+ }
 
 
-table td { 
-	padding: 5px; 
-}
+/*   RESPONSIV INDEX */
 
-tbody td:hover { 
-	background: #e0dfdf; 
-}
-
-
-.vlevo1 {
-        float: left;
-}
-
-.vlevo {
-        float: left;
-        padding-top: 100px;
-}
-
-.vpravo {
-        float: right;
-        padding-top: px;     
-}
-
- 
-#dovednosti td {
-        width: 33%;
-        padding: 10px;
-        vertical-align: top;
-}
-
-#dovednosti {
-        border-collapse: collapse;
-        margin-top: 60px;
-}
-
-
-/*   RESPONSIV EXPERIENCE */
-
-#ramecek {
-        box-sizing: border-box;
-        box-shadow: 13px 13px 16px #999999;               
-}
-
-.clanek-experience {
+.clanek-index {
         font-size: 30px;
         box-sizing: border-box;
         width: 100%;
         height: 100%;
-        margin: 20px 0;
-        padding: 0px;
-}
-      
-.postranni-panel-experience {            
-        box-sizing: border-box;
-        width: 50%;
-        height: 50%;
-        margin: 20px 0;
-}
-      
-@media screen and (min-width: 900px) {
-        .clanek-experience {
-        font-size: 16px;
-        width: 60%;
-        float: left;
-        }
-      
-        .postranni-panel-experience {
-        width: 30%;
-        float: right;
-        margin-top: 150px;
-          
-        }
-}
-
-/*   RESPONSIV REFERENCE */
-
-#reference img {
-        border: 1px solid gray;
-        padding: 6px;
-        box-shadow: 3px 3px 6px #999999;
-        margin-right: 6px;
-}
-
-
-.clanek-reference {
-        font-size: 30px;
-        box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        margin: 0px 0;
-        padding: 10px;
+        margin: 40px 40px;
+        padding-top: 40px;
  }
       
-.postranni-panel-reference {            
+.postranni-panel-index {           
         box-sizing: border-box;
-        width: 100%;
-        height: 100%;
-        margin: 10px 10px;   /*horní,dolní,        pravo,levo */
-       
-}
-      
+        width: 40%;
+        height: 30%;
+        margin: 20px 20px 10px 200px;
+  
+        border-width: 10px;
+        border-color: #ACA69Aff;
+        border-style: solid;
+        border-radius: 100%;
+ }
+ 
+ 
 @media screen and (min-width: 900px) {
-        .clanek-reference {
+        .welcome-section{
+        width: 100%;
+        height:500px;
+        background-image: url('./pexels2.jpg');
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        } 
+
+        .clanek-index {
         font-size: 16px;
-        width: 60%;
+        width: 45%;
         float: left;
-        padding-bottom: 20px;
+        margin: 50px 100px 10px 130px;    /*horní, dolní, pravo, levo */
         }
-      
-        .postranni-panel-reference {
-        width: 30%;
-        float: right;
         
+        .postranni-panel-index {
+        width: 25%;
+        float: right;
+        margin: 150px 10px 10px 150px;       /*horní, dolní, pravo, levo */
         }
 }
-
